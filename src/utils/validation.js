@@ -27,5 +27,5 @@ const signUpFormValidation = (formData) => {
     if(Object.keys(error).length === 0) return null
     return error
 }
-
+ 
 export { signUpFormValidation }
